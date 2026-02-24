@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f9; margin: 0; padding: 0; }
+.app-container { max-width: 600px; margin: 50px auto; background: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); overflow: hidden; display: flex; flex-direction: column; height: 80vh; }
+.header { background: #007bff; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+.header button { background: white; color: #007bff; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.chat-window { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+.message { padding: 10px 15px; border-radius: 15px; max-width: 75%; word-wrap: break-word; }
+.user { align-self: flex-end; background: #007bff; color: white; }
+.assistant { align-self: flex-start; background: #e9ecef; color: black; }
+.loading { font-style: italic; color: #888; align-self: flex-start; }
+.timestamp { font-size: 0.7em; opacity: 0.7; display: block; margin-top: 5px; text-align: right; }
+.input-area { display: flex; padding: 15px; border-top: 1px solid #ddd; }
+.input-area input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px; outline: none; }
+.input-area button { padding: 10px 20px; margin-left: 10px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.input-area button:disabled { background: #6c757d; cursor: not-allowed; }
